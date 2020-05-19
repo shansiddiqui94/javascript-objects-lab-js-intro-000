@@ -1,7 +1,5 @@
 function updateObjectWithKeyAndValue(object, key, value){
-var object = Object.assign({}, {[key]: value})
-     //obj.prop2 = 'undefined'
-    // obj['prop2'] = 'undefined';
+  var updatedobj = object.key = value
   return object
 }
 
@@ -19,4 +17,13 @@ function deleteFromObjectByKey(object, key){
 function destructivelyDeleteFromObjectByKey(object, key){
   delete object.key
   return object
+}
+
+
+function add(num1, num2) {
+  return num1 + num2
+}
+
+function add(5, 3) {
+  return 5 + 3;
 }
