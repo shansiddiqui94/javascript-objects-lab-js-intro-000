@@ -19,10 +19,10 @@ function destructivelyDeleteFromObjectByKey(object, key){
 }
 
 
-function add(num1, num2) {
-  return num1 + num2
-}
-
-function add(5, 3) {
-  return 5 + 3;
-}
+// function add(num1, num2) {
+//   return num1 + num2
+// }
+//
+// function add(5, 3) {
+//   return 5 + 3;
+// }
